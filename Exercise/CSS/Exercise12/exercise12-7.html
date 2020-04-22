@@ -7,19 +7,69 @@
 <link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet'>
 <style>
 body {
-  font-family: Verdana, sans-serif;
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 1.75em;
+}
+p, dl {
+  font-size: .875em;
 }
 h1 {
-  font-family: "Marko One", Georgia, serif;
+  font: bold 1.5em "Marko One", Georgia, serif;
+  color: purple;
+  text-shadow: .1em .1em .2em lightslategray;
 }
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  color: purple;
+}
+dt {
+  font-weight: bold;
+  color: sienna;
+}
+strong {
+  font-style: italic;
+}
+dt strong {
+  color: maroon;
+}
+#info p {
+  font-style: italic;
+  color: gray;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: gray;
+}
+p.warning, sup {
+  font-size: small;
+  color: red;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+h1, h2, #info {
+  text-align: center;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
 </style>
 </head>
 
 <body>
 
-<div id="info">
 <h1>Black Goose Bistro &bull; Summer Menu</h1>
 
+<div id="info">
 <p>Baker's Corner, Seekonk, Massachusetts<br>
 <span class="label">Hours: Monday through Thursday:</span> 11 to 9, <span class="label">Friday and Saturday;</span> 11 to midnight</p>
 </div>
